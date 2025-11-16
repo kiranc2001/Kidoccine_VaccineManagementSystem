@@ -60,7 +60,7 @@ $mail = new PHPMailer(true);
         $mail->Port = 587; // TCP port to connect to
 
         // Set the sender
-        $mail->setFrom('vaccine.govt@gmail.com', 'Kidoccine');
+        $mail->setFrom('kirangowda0212@gmail.com', 'Kidoccine');
 
         // Get all unique parent emails from booked_vaccines table
         $unique_emails_sql = "SELECT DISTINCT email_id FROM booked_vaccines";
@@ -203,4 +203,5 @@ h2 {
 </body>
 
 </html>
+
 

@@ -37,14 +37,14 @@ $mail = new PHPMailer(true);
    $mail->isSMTP();
         $mail->Host = 'smtp.gmail.com'; // Specify your SMTP server
         $mail->SMTPAuth = true;
-        $mail->Username = 'goverment.head@gmail.com'; // SMTP username
-        $mail->Password = 'xvxvtaulnbmdevts'; // SMTP password
+        $mail->Username = 'kirankiki590@gmail.com'; // SMTP username
+        $mail->Password = 'nvhfcobiqzagremy'; // SMTP password
         $mail->SMTPSecure = 'tls'; // Enable TLS encryption, `ssl` also accepted
         $mail->Port = 587; // TCP port to connect to
 
         //Recipients
-        $mail->setFrom('goverment.head@gmail.com', 'Government');
-        $mail->addAddress('vaccine.govt@gmail.com'); // Add a recipient
+        $mail->setFrom('kirankiki590@gmail.com', 'Government');
+        $mail->addAddress('kirangowda0212@gmail.com'); // Add a recipient
 
         // Content
         $mail->isHTML(true);
@@ -144,3 +144,4 @@ button:hover {
 </body>
 
 </html>
+

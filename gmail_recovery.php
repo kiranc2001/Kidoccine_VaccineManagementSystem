@@ -42,13 +42,13 @@ function sendOTP($email, $otp) {
         $mail->isSMTP();
         $mail->Host = 'smtp.gmail.com'; // Specify your SMTP server
         $mail->SMTPAuth = true;
-        $mail->Username = 'vaccine.govt@gmail.com'; // SMTP username
-        $mail->Password = 'qnaqgmrnamvsuzis'; // SMTP password
+        $mail->Username = 'kirangowda0212@gmail.com'; // SMTP username
+        $mail->Password = 'llhrxpyvxrxzlssr'; // SMTP password
         $mail->SMTPSecure = 'tls'; // Enable TLS encryption, `ssl` also accepted
         $mail->Port = 587; // TCP port to connect to
 
         //Recipients
-        $mail->setFrom('vaccine.govt@gmail.com', 'Kidoccine');
+        $mail->setFrom('kirangowda0212@gmail.com', 'Kidoccine');
         $mail->addAddress($email); // Add a recipient
 
         // Content
@@ -187,3 +187,4 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 </body>
 </html>
+

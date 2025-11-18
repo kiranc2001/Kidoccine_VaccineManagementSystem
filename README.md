@@ -2,7 +2,7 @@
 
 ## Vaccine Management System: Interactive Communication Model for Kids' Vaccination Supply Chain
 
-## Webiste
+## Website
 
 **Live URL**: https://kidoccine.org/
 
